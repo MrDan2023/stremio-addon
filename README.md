@@ -1,15 +1,8 @@
 
-# Reliable Stremio Addon
+Production-ready Stremio addon skeleton.
 
-Deploy to Render as a Web Service.
-
-Build command:
-npm install
-
-Start command:
-npm start
-
-Manifest:
-https://YOUR-URL/manifest.json
-
-Add your own providers inside getStreams().
+Features:
+- Provider failover
+- Docker support
+- Render compatible
+- Extend providers with your own legal/user-authorized sources
